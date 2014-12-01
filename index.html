@@ -11,13 +11,14 @@
 <link rel="stylesheet" href="ng-tags-input.min.css">
 
 
-
-
 </head>
 <body ng-app="app">
 	<div class="menu">
 		<a href="#/host">Host</a> <a href="#/containers">Containers</a> <a
 			href="#/images">Images</a> <a href="#/events">Events</a>
+			
+		<!-- 	<div class="loginBox"><h4>{{weclomemsg}}<span class="label label-default">{{username}}</span></h4></div>
+			 -->
 		<div class="searchBox">
 
 			<input type="text" ng-model="searchFor" class="form-control"
@@ -32,18 +33,16 @@
 
 	<!-- bootstrap -->
 	<script src="jquery-1.11.1.min.js"></script>
+	<script src="bootstrap\js\bootstrap.min.js"></script>
+	<script src="angular.js"></script>
+
 	<script
-		src="bootstrap\js\bootstrap.min.js"></script>
+		src="https://raw.githubusercontent.com/danialfarid/angular-file-upload/master/dist/angular-file-upload-shim.min.js"></script>
 	<script
-		src="angular.js"></script>
-		
-		<script src="https://raw.githubusercontent.com/danialfarid/angular-file-upload/master/dist/angular-file-upload-shim.min.js"></script>
-		<script src="https://raw.githubusercontent.com/danialfarid/angular-file-upload/master/dist/angular-file-upload.min.js"></script> 
-		
-	<script
-		src="angular-route.js"></script>
-	<script
-		src="ui-bootstrap-tpls-0.11.2.js"></script>
+		src="https://raw.githubusercontent.com/danialfarid/angular-file-upload/master/dist/angular-file-upload.min.js"></script>
+
+	<script src="angular-route.js"></script>
+	<script src="ui-bootstrap-tpls-0.11.2.js"></script>
 	<script src="term.js"></script>
 	<script src="ng-tags-input.min.js"></script>
 
@@ -62,7 +61,7 @@
 	<script src="app\scripts\controllers\ContainerController.js"></script>
 	<script src="app\scripts\services\ContainerService.js"></script>
 	<script src="app\scripts\services\terminal.js"></script>
-<script src="app\scripts\controllers\DologinController.js"></script>
+	<script src="app\scripts\controllers\DologinController.js"></script>
 
 </body>
 </html>
